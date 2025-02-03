@@ -4,7 +4,7 @@ from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message, C
 from aiogram.fsm.storage.memory import MemoryStorage
 from config import Config, load_config
 
-BOT_TOKEN: str = Config.tg_bot.token
+BOT_TOKEN='7569763027:AAEPh8CsOZ2KvSNz7YJuLpIyuuw8_rzH51Y'
 bot=Bot(BOT_TOKEN)
 storage = MemoryStorage()
 dp = Dispatcher(storage=storage)
